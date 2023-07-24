@@ -5,7 +5,6 @@ import globalStyles from '../assets/styles/global'
 import axios from 'axios'
 
 const DetailsClient = ({ navigation, route }) => {
-    console.log(route.params)
 
     const { name, phone, email, company, id } = route.params.item
     const { setConsultApi } = route.params
