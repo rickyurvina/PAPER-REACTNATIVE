@@ -1,12 +1,6 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
   StyleSheet,
-  Text,
-  useColorScheme,
-  View,
 } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
@@ -14,9 +8,7 @@ import HomeScreen from './src/views/HomeScreen';
 import DetailsClient from './src/views/DetailsClient';
 import NewClient from './src/views/NewClient';
 import { DefaultTheme, PaperProvider } from 'react-native-paper';
-import Nav from './src/components/ui/Nav';
 function App(): JSX.Element {
-
 
   const Stack = createNativeStackNavigator();
 
