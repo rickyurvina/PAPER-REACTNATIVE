@@ -1,0 +1,25 @@
+{
+  "clients": [
+    {
+      "name": "Ricardo Urvina",
+      "phone": "+56 93654027",
+      "email": "ricky_uc12@hotmail.co",
+      "company": "UC",
+      "id": 1
+    },
+    {
+      "name": "Ingrid2",
+      "phone": "23",
+      "email": "ssdf",
+      "company": "sdf",
+      "id": 2
+    },
+    {
+      "name": "testint",
+      "phone": "et",
+      "email": "e",
+      "company": "te",
+      "id": 3
+    }
+  ]
+}
